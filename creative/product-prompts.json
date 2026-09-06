@@ -1,0 +1,130 @@
+[
+  {
+    "id": "dune",
+    "model": "gpt-image-2",
+    "filename": "dune.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. ivory thobe, structured stand collar, concealed front placket, straight long sleeves.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "noir",
+    "model": "gpt-image-2",
+    "filename": "noir.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. matte black thobe, stand collar, concealed front placket, tailored straight silhouette.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "saffron",
+    "model": "gpt-image-2",
+    "filename": "saffron.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. burnt orange linen thobe, band collar, discreet chest pocket, long straight sleeves.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "riyadh",
+    "model": "gpt-image-2",
+    "filename": "riyadh.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. crisp white thobe, pointed shirt collar, small exposed buttons, formal button cuffs.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "oasis",
+    "model": "gpt-image-2",
+    "filename": "oasis.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. cream linen collarless thobe, short split round neckline, relaxed straight fit.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "ember",
+    "model": "gpt-image-2",
+    "filename": "ember.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. terracotta orange thobe with subtle tonal geometric embroidery around short placket.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "midnight",
+    "model": "gpt-image-2",
+    "filename": "midnight.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. black subtly textured thobe with narrow band collar and clean fitted cuffs.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "nomad",
+    "model": "gpt-image-2",
+    "filename": "nomad.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. warm ivory textured linen thobe, relaxed silhouette, simple round neckline and short placket.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "asir",
+    "model": "gpt-image-2",
+    "filename": "asir.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. white thobe with minimal asymmetrical neckline fastening and clean tailored sleeves.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "copper",
+    "model": "gpt-image-2",
+    "filename": "copper.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. deep copper rust thobe, stand collar, tonal chest pocket, linen weave.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "majlis",
+    "model": "gpt-image-2",
+    "filename": "majlis.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. flowing black Arabian bisht cloak open at front over white thobe, narrow muted gold border.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "sahara",
+    "model": "gpt-image-2",
+    "filename": "sahara.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. flowing ivory Arabian bisht cloak over white thobe, delicate champagne trim.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "sunset",
+    "model": "gpt-image-2",
+    "filename": "sunset.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. burnt orange Arabian bisht cloak open front over cream thobe, thin dark brown border.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "obsidian",
+    "model": "gpt-image-2",
+    "filename": "obsidian.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. black Arabian bisht cloak over black thobe, tone-on-tone black embroidered front border.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "shemagh",
+    "model": "gpt-image-2",
+    "filename": "shemagh.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. red and white geometric patterned shemagh scarf neatly folded with black double cord agal placed beside it, elegant flat lay.",
+    "width": 768,
+    "height": 1024
+  },
+  {
+    "id": "ghutra",
+    "model": "gpt-image-2",
+    "filename": "ghutra.png",
+    "prompt": "Premium ecommerce product photograph for The Desert, modern Arabian menswear. Vertical 3:4 composition. Full garment visible and centered with comfortable margins. Soft warm off-white seamless studio background, subtle floor shadow, diffused daylight, natural high-detail fabric texture, restrained editorial styling. Garment only on an invisible ghost mannequin, no human body, no visible mannequin, no hanger, no text, no labels, no logo, no watermark. Consistent distance and lighting across the collection. Do not tint white fabrics orange. white ghutra scarf neatly folded with black double cord agal placed beside it, elegant flat lay.",
+    "width": 768,
+    "height": 1024
+  }
+]
