@@ -4,6 +4,7 @@ An animated editorial storefront concept for a modern Arabian menswear label. Th
 
 - Live storefront: https://moh4696.github.io/the-desert/
 - Source repository: https://github.com/Moh4696/the-desert
+- Step-by-step creation guide: [docs/BUILD_GUIDE.md](docs/BUILD_GUIDE.md)
 
 The 16:9 hero master was created with GPT Image 2 from the supplied illustration and animated as a 10-second Kling 3.0 Turbo clip through Higgsfield. Nine catalog products use dedicated GPT Image 2 renders; the remaining seven use matching OpenAI-generated catalog photography.
 
