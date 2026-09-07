@@ -133,9 +133,9 @@ if(!reducedMotion.matches&&'IntersectionObserver' in window){
 async function setupHero(){
   const video=$('#hero-video'),button=$('#motion-toggle');
   try{
-    const response=await fetch('/assets/hero-config.json'); if(!response.ok)return;
+    const response=await fetch('assets/hero-config.json'); if(!response.ok)return;
     const config=await response.json(); if(!config.video)return;
-    const source=new URL(config.video,location.origin); if(source.origin!==location.origin)return;
+    const source=new URL(config.video,document.baseURI); if(source.origin!==location.origin)return;
     video.src=source.href;video.preload='metadata';
     let paused=readStore('desert-motion-paused',false)===true;
     const updateButton=()=>{const isPaused=video.paused;$('#motion-label').textContent=isPaused?'Play motion':'Pause motion';$('#motion-icon').textContent=isPaused?'▷':'Ⅱ';button.setAttribute('aria-label',isPaused?'Play hero animation':'Pause hero animation');};

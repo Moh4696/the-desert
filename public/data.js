@@ -17,7 +17,7 @@ const records = [
   ['shemagh','The Heritage Shemagh','Accessories','Red & white',65,'Essential','A red-and-white geometric weave that gives every look a finishing note. Styled with a classic black agal.','Woven cotton','red and white geometric patterned shemagh scarf neatly folded with black double cord agal placed beside it, elegant flat lay'],
   ['ghutra','The White Ghutra','Accessories','White',55,'','Clean white fabric and a soft finish. An understated finishing piece, paired here with a black agal.','Woven cotton','white ghutra scarf neatly folded with black double cord agal placed beside it, elegant flat lay']
 ];
-export const products = records.map(([id,name,category,color,price,badge,description,fabric,visual],index) => ({ id,name,category,color,price,badge,description,fabric,visual,index, sizes: category === 'Accessories' ? ['One size'] : garmentSizes, image:`/assets/products/${id}.webp` }));
+export const products = records.map(([id,name,category,color,price,badge,description,fabric,visual],index) => ({ id,name,category,color,price,badge,description,fabric,visual,index, sizes: category === 'Accessories' ? ['One size'] : garmentSizes, image:`assets/products/${id}.webp` }));
 export const currency = 'USD';
 export function money(amount) { return new Intl.NumberFormat('en-US',{ style:'currency',currency,maximumFractionDigits:0 }).format(amount); }
 export function filterProducts({category='All',query='',sort='featured',savedOnly=false,saved=[]}={}) {
