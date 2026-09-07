@@ -14,6 +14,7 @@ let currentProduct;
 function toast(message) { $('#toast').textContent=message; $('#toast').classList.add('show'); clearTimeout(toastTimer); toastTimer=setTimeout(()=>$('#toast').classList.remove('show'),2800); }
 function openDialog(id) { const dialog=$(`#${id}`); if(!dialog.open) dialog.showModal(); }
 function closeDialog(dialog) { dialog.close(); }
+function setMobileNav(open) { const nav=$('#mobile-nav'),button=$('#menu-toggle'); nav.hidden=!open;button.setAttribute('aria-expanded',String(open));button.setAttribute('aria-label',open?'Close navigation':'Open navigation'); }
 function productById(id) { return products.find(p=>p.id===id); }
 function swatch(p) { return `<span class="swatch" style="background:${colorMap[p.color]||'#d6c8b6'}" aria-hidden="true"></span>`; }
 function productCard(p) {
@@ -79,7 +80,7 @@ document.addEventListener('click',event=>{
   }
   if(button.dataset.category) { state.category=button.dataset.category;renderProducts();return; }
   if(button.dataset.shop) return shopCategory(button.dataset.shop);
-  if(button.dataset.open) { $('#mobile-nav').hidden=true;$('#menu-toggle').setAttribute('aria-expanded','false'); return showInfo(button.dataset.open); }
+  if(button.dataset.open) { setMobileNav(false); return showInfo(button.dataset.open); }
   if(button.hasAttribute('data-quantity')) {
     const i=Number(button.dataset.quantity), delta=Number(button.dataset.delta);
     if(cart[i]) cart[i].quantity=Math.max(1,Math.min(10,cart[i].quantity+delta));
@@ -93,7 +94,7 @@ document.addEventListener('click',event=>{
   if(button.id==='checkout-open') return openCheckout();
   if(button.id==='reset-filters'){Object.assign(state,{category:'All',query:'',savedOnly:false});renderProducts();return;}
   if(button.id==='clear-search'){state.query='';renderProducts();return;}
-  if(button.id==='menu-toggle') {const nav=$('#mobile-nav');nav.hidden=!nav.hidden;button.setAttribute('aria-expanded',String(!nav.hidden));return;}
+  if(button.id==='menu-toggle') {setMobileNav($('#mobile-nav').hidden);return;}
 });
 document.addEventListener('submit',event=>{
   if(event.target.id==='add-product-form') {
@@ -108,12 +109,12 @@ document.addEventListener('submit',event=>{
   if(event.target.id==='demo-order-form') {
     event.preventDefault();const total=cartTotals(cart),reference=`DESERT-DEMO-${Date.now().toString(36).toUpperCase()}`;
     $('#checkout-content').innerHTML=`<span class="confirmation-symbol" aria-hidden="true">✳</span><p class="eyebrow">PREVIEW COMPLETE</p><h2 id="checkout-title">A little more character.</h2><p class="checkout-notice">Your demo order is complete. <strong>No real order was placed and no payment was taken.</strong></p><p class="order-reference">${reference}</p><div class="confirmation-items"><div class="total-row"><span>${total.count} ${total.count===1?'piece':'pieces'}</span><strong>${money(total.subtotal)} USD</strong></div></div><p class="fine-print">Your bag has been cleared for another preview. Your saved pieces remain in your browser.</p><button class="button orange full" data-close style="margin-top:25px">Keep exploring ↗</button>`;
-    cart=[];updateBag();$('#checkout-title').setAttribute('tabindex','-1');$('#checkout-title').focus();
+    cart=[];updateBag();toast('Demo preview complete. No order was placed.');$('#checkout-title').setAttribute('tabindex','-1');$('#checkout-title').focus();
   }
 });
 $('#sort').addEventListener('change',event=>{state.sort=event.target.value;renderProducts();});
 $('#search-input').addEventListener('input',renderSearch);
-$$('#mobile-nav a').forEach(a=>a.addEventListener('click',()=>{$('#mobile-nav').hidden=true;$('#menu-toggle').setAttribute('aria-expanded','false');}));
+$$('#mobile-nav a').forEach(a=>a.addEventListener('click',()=>setMobileNav(false)));
 $$('dialog').forEach(dialog=>dialog.addEventListener('click',event=>{
   if(event.target!==dialog)return;const r=dialog.getBoundingClientRect();
   if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();
